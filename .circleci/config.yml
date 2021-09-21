@@ -19,14 +19,14 @@ jobs:
       - run:
           name: Testing
           command: yarn test
+  node-14:
+    <<: *test
+    docker:
+      - image: node:14
   node-12:
     <<: *test
     docker:
       - image: node:12
-  node-10:
-    <<: *test
-    docker:
-      - image: node:10
   cache:
     <<: *test
     steps:
@@ -46,8 +46,8 @@ workflows:
   "oclif-hello-world":
     jobs:
       - node-latest
+      - node-14
       - node-12
-      - node-10
       - cache:
           filters:
             tags:
