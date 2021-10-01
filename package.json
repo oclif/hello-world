@@ -9,7 +9,7 @@
   "bugs": "https://github.com/oclif/hello-world/issues",
   "dependencies": {
     "@oclif/core": "^0.5",
-    "@oclif/plugin-help": "^4"
+    "@oclif/plugin-help": "^5"
   },
   "devDependencies": {
     "@oclif/test": "^1",
