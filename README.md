@@ -19,8 +19,8 @@ oclif example Hello World CLI
 $ npm install -g oclif-hello-world
 $ oex COMMAND
 running command...
-$ oex (-v|--version|version)
-oclif-hello-world/0.0.0 darwin-x64 node-v12.20.2
+$ oex (--version)
+oclif-hello-world/0.0.0 darwin-x64 node-v14.15.4
 $ oex --help [COMMAND]
 USAGE
   $ oex COMMAND
@@ -39,16 +39,13 @@ Say hello
 
 ```
 USAGE
-  $ oex hello [PERSON] -f <value> [--json]
+  $ oex hello [PERSON] -f <value>
 
 ARGUMENTS
   PERSON  Person to say hello to
 
 FLAGS
   -f, --from=<value>  (required) Whom is saying hello
-
-GLOBAL FLAGS
-  --json  Format output as json.
 
 DESCRIPTION
   Say hello
@@ -66,10 +63,7 @@ Say hello world
 
 ```
 USAGE
-  $ oex hello world [--json]
-
-GLOBAL FLAGS
-  --json  Format output as json.
+  $ oex hello world
 
 DESCRIPTION
   Say hello world
