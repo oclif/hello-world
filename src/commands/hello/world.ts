@@ -13,7 +13,7 @@ hello world! (./src/commands/hello/world.ts)
 
   static args = []
 
-  async run() {
+  async run(): Promise<void> {
     this.log('hello world! (./src/commands/hello/world.ts)')
   }
 }
