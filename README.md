@@ -5,9 +5,9 @@ oclif example Hello World CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/master.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/master)
+[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
 [![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -29,9 +29,12 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oex hello PERSON`](#oex-hello-person)
-* [`oex hello world`](#oex-hello-world)
-* [`oex help [COMMAND]`](#oex-help-command)
+- [oclif-hello-world](#oclif-hello-world)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [`oex hello PERSON`](#oex-hello-person)
+  - [`oex hello world`](#oex-hello-world)
+  - [`oex help [COMMAND]`](#oex-help-command)
 
 ## `oex hello PERSON`
 
