@@ -9,7 +9,9 @@
   "bugs": "https://github.com/oclif/hello-world/issues",
   "dependencies": {
     "@oclif/core": "^1",
-    "@oclif/plugin-help": "^5"
+    "@oclif/plugin-autocomplete": "^0.3.0",
+    "@oclif/plugin-help": "^5",
+    "@oclif/plugin-plugins": "^2.0.1"
   },
   "devDependencies": {
     "@oclif/test": "^2",
@@ -32,7 +34,7 @@
   },
   "files": [
     "/bin",
-    "/lib",
+    "/dist",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
@@ -41,12 +43,15 @@
     "oclif"
   ],
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "dirname": "oex",
   "oclif": {
-    "commands": "./lib/commands",
     "bin": "oex",
+    "commands": "./dist/commands",
     "plugins": [
-      "@oclif/plugin-help"
+      "@oclif/plugin-autocomplete",
+      "@oclif/plugin-help",
+      "@oclif/plugin-plugins"
     ],
     "topicSeparator": " ",
     "topics": {
@@ -57,12 +62,13 @@
   },
   "repository": "oclif/hello-world",
   "scripts": {
-    "build": "rm -rf lib && tsc -b",
+    "build": "rm -rf dist && tsc -b",
+    "lint": "eslint . --ext .ts --config .eslintrc",
     "postpack": "rm -f oclif.manifest.json",
-    "posttest": "eslint . --ext .ts --config .eslintrc",
+    "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md"
   },
-  "types": "lib/index.d.ts"
+  "types": "dist/index.d.ts"
 }
