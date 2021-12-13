@@ -29,7 +29,6 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oex autocomplete [SHELL]`](#oex-autocomplete-shell)
 * [`oex hello PERSON`](#oex-hello-person)
 * [`oex hello world`](#oex-hello-world)
 * [`oex help [COMMAND]`](#oex-help-command)
@@ -39,35 +38,6 @@ USAGE
 * [`oex plugins:link PLUGIN`](#oex-pluginslink-plugin)
 * [`oex plugins:uninstall PLUGIN...`](#oex-pluginsuninstall-plugin)
 * [`oex plugins update`](#oex-plugins-update)
-
-## `oex autocomplete [SHELL]`
-
-display autocomplete installation instructions
-
-```
-USAGE
-  $ oex autocomplete [SHELL] [-r]
-
-ARGUMENTS
-  SHELL  shell type
-
-FLAGS
-  -r, --refresh-cache  Refresh cache (ignores displaying instructions)
-
-DESCRIPTION
-  display autocomplete installation instructions
-
-EXAMPLES
-  $ oex autocomplete
-
-  $ oex autocomplete bash
-
-  $ oex autocomplete zsh
-
-  $ oex autocomplete --refresh-cache
-```
-
-_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v0.3.0/src/commands/autocomplete/index.ts)_
 
 ## `oex hello PERSON`
 
