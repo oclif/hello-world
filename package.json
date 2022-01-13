@@ -44,9 +44,9 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "dirname": "oex",
   "oclif": {
     "bin": "oex",
+    "dirname": "oex",
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",
