@@ -457,7 +457,7 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@1.0.10", "@oclif/core@^1.0.10", "@oclif/core@^1.0.8":
+"@oclif/core@1.0.10":
   version "1.0.10"
   resolved "https://registry.npmjs.org/@oclif/core/-/core-1.0.10.tgz"
   integrity sha512-L+IcNU3NoYxwz5hmHfcUlOJ3dpgHRsIj1kAmI9CKEJHq5gBVKlP44Ot179Jke1jKRKX2g9N42izbmlh0SNpkkw==
@@ -480,10 +480,10 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^1.13.10", "@oclif/core@^1.2.1", "@oclif/core@^1.3.6", "@oclif/core@^1.9.9":
-  version "1.13.10"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.13.10.tgz#d2014cd75efcd8529d78f1eda5ddc2a4d07c860e"
-  integrity sha512-nwpjXwWscETdvO+/z94V1zd95vnzmCB6VRaobR4BdBllwWU6jHF/eCi1Ud2Tk9RSedChoLneZuDCkKnRCmxyng==
+"@oclif/core@^1.0.10", "@oclif/core@^1.0.8", "@oclif/core@^1.13.10", "@oclif/core@^1.2.1", "@oclif/core@^1.3.6", "@oclif/core@^1.6.4", "@oclif/core@^1.9.9":
+  version "1.13.11"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.13.11.tgz#f38389cc924b879c724cb7a4732aded1bfb9569a"
+  integrity sha512-4b/S/Sr9Kj/uA5NDP4iBwCcgAGvMyICJUZ+Dp3S5397Hhe1Q3mhgI3GKb8N12s2inbx9CbhxSkWjS+vN6Q0xyw==
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     "@oclif/screen" "^3.0.2"
@@ -585,10 +585,11 @@
   integrity sha512-S/SF/XYJeevwIgHFmVDAFRUvM3m+OjhvCAYMk78ZJQCYCQ5wS7j+LTt1ZEv2jpEEGg2tx/F6TYYWxddNAYHrFQ==
 
 "@oclif/test@^2":
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/@oclif/test/-/test-2.0.3.tgz"
-  integrity sha512-8mN/cmfrPQKc9+3I6Dj6HNgmPqRVKe4P7gU61pLUz220oFUxhuP0EHLzY3ARFx8ecUZAJZdWJwh+dne/1GfTcA==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.1.1.tgz#140ed05ece651cdf427306b5c878826e273a1722"
+  integrity sha512-vuBDXnXbnU073xNUqj+V4Fbrp+6Xhs1sgeWUIMj69SP9qC3pUBPfEPzIoK00ga6/WxZ+2qUgqCBAOPGz3nmTEg==
   dependencies:
+    "@oclif/core" "^1.6.4"
     fancy-test "^2.0.0"
 
 "@octokit/auth-token@^2.4.4":
