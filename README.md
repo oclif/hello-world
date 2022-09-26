@@ -51,7 +51,7 @@ ARGUMENTS
   PERSON  Person to say hello to
 
 FLAGS
-  -f, --from=<value>  (required) Whom is saying hello
+  -f, --from=<value>  (required) Who is saying hello
 
 DESCRIPTION
   Say hello
