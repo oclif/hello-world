@@ -13,10 +13,10 @@
     "@oclif/plugin-plugins": "^2.0.1"
   },
   "devDependencies": {
-    "@oclif/test": "^2.1.2",
+    "@oclif/test": "^2.2.0",
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
-    "@types/node": "^16.11.61",
+    "@types/node": "^16.11.62",
     "chai": "^4",
     "eslint": "^7.32.0",
     "eslint-config-oclif": "^4",
