@@ -505,7 +505,7 @@
   dependencies:
     "@oclif/core" "^1.16.5"
 
-"@oclif/plugin-not-found@^2.3.4":
+"@oclif/plugin-not-found@^2.3.5":
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-not-found/-/plugin-not-found-2.3.5.tgz#76d939d57f207039061a14727ee263de14e1a739"
   integrity sha512-8c1hf6+JnWmtGQS5gBSGlbMOYLbssz0mpGytlzevHZzPes2k8EGuNQBOP2nEeyObM9HhbNjzBRjwJcjDB6zoQQ==
@@ -3759,13 +3759,13 @@ object.assign@^4.1.2:
     object-keys "^1.1.1"
 
 oclif@^3:
-  version "3.2.17"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.2.17.tgz#d07bb3a4edb4a5e04c96c7e5cd2798b3106d0170"
-  integrity sha512-xxR6EiVHgVGMKjWmdihwZ8D6N0k51kYnrJqru00bqWR0APN8nDrz7HLXvggUGYwB2lhKY3PHYYEeDRGfopYfeQ==
+  version "3.2.20"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.2.20.tgz#38d7a224a35dbca3518622eb906772789005ff1b"
+  integrity sha512-iO+XWvwHVIgJc9WKotMt08cHU5bYjrm2mXPMZCw7/XWjWJhKWbJFcGgYIFUEjgXqUfzx1olZv35pig5Tfe3g7Q==
   dependencies:
-    "@oclif/core" "^1.16.4"
+    "@oclif/core" "^1.18.0"
     "@oclif/plugin-help" "^5.1.15"
-    "@oclif/plugin-not-found" "^2.3.4"
+    "@oclif/plugin-not-found" "^2.3.5"
     "@oclif/plugin-warn-if-update-available" "^2.0.6"
     aws-sdk "^2.1231.0"
     concurrently "^7.4.0"
