@@ -515,13 +515,13 @@
     fast-levenshtein "^3.0.0"
     lodash "^4.17.21"
 
-"@oclif/plugin-plugins@^2.1.5":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-2.1.5.tgz#2d7fd1a87dc47c5cc6267ac17e3f3692218348fa"
-  integrity sha512-wG+n81R/tMavnRKHJi2two6rski42aMkeanuBxQCFhGUCstKHu7pbiYuvgzDGCisNIiUvCVUdu9colOFS6FUmA==
+"@oclif/plugin-plugins@^2.1.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-2.1.6.tgz#8a42ef7b610898962b57101427912ff268a76cf4"
+  integrity sha512-jpD3/bUOwcGou9764d4BOnnfOHojhOUqRoZ/zp+JIpscKZu/XIGsVVfZ2BHn+OHI/LbHeECRoBN5afSe19rnwA==
   dependencies:
     "@oclif/color" "^1.0.1"
-    "@oclif/core" "^1.19.1"
+    "@oclif/core" "^1.20.0"
     chalk "^4.1.2"
     debug "^4.3.4"
     fs-extra "^9.0"
