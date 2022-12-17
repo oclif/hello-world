@@ -10,7 +10,7 @@
   "dependencies": {
     "@oclif/core": "^1.21.0",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.1.7"
+    "@oclif/plugin-plugins": "^2.1.8"
   },
   "devDependencies": {
     "@oclif/test": "^2.2.13",
