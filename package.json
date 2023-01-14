@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/oclif/hello-world/issues",
   "dependencies": {
-    "@oclif/core": "^1.23.0",
+    "@oclif/core": "^1.24.0",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.1.12"
   },
