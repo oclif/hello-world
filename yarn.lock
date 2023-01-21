@@ -493,6 +493,40 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
+"@oclif/core@^2.0.2-beta.10":
+  version "2.0.2-beta.10"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.0.2-beta.10.tgz#5b459a91d653b8d5aa234e4324a4cc483747abd2"
+  integrity sha512-FgJ5XHE6MjE7DOyQAcOZPD5Xs5cNOzP91zAQBkut8xhOkZA1NRQjv+7BczJqOTerXccohhTlu09pd7OAyDuitw==
+  dependencies:
+    "@types/cli-progress" "^3.11.0"
+    ansi-escapes "^4.3.2"
+    ansi-styles "^4.3.0"
+    cardinal "^2.1.1"
+    chalk "^4.1.2"
+    clean-stack "^3.0.1"
+    cli-progress "^3.10.0"
+    debug "^4.3.4"
+    ejs "^3.1.6"
+    fs-extra "^9.1.0"
+    get-package-type "^0.1.0"
+    globby "^11.1.0"
+    hyperlinker "^1.0.0"
+    indent-string "^4.0.0"
+    is-wsl "^2.2.0"
+    js-yaml "^3.14.1"
+    natural-orderby "^2.0.3"
+    object-treeify "^1.1.33"
+    password-prompt "^1.1.2"
+    semver "^7.3.7"
+    string-width "^4.2.3"
+    strip-ansi "^6.0.1"
+    supports-color "^8.1.1"
+    supports-hyperlinks "^2.2.0"
+    tslib "^2.4.1"
+    widest-line "^3.1.0"
+    wordwrap "^1.0.0"
+    wrap-ansi "^7.0.0"
+
 "@oclif/linewrap@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@oclif/linewrap/-/linewrap-1.0.0.tgz"
@@ -729,6 +763,13 @@
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.4.tgz#e913e8175db8307d78b4e8fa690408ba6b65dee4"
   integrity sha512-KnRanxnpfpjUTqTCXslZSEdLfXExwgNxYPdiO2WGUj8+HDjFi8R3k5RVKPeSCzLjCcshCAtVO2QBbVuAV4kTnw==
+
+"@types/cli-progress@^3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@types/cli-progress/-/cli-progress-3.11.0.tgz#ec79df99b26757c3d1c7170af8422e0fc95eef7e"
+  integrity sha512-XhXhBv1R/q2ahF3BM7qT5HLzJNlIL0wbcGyZVjqOTqAybAnsLisd7gy1UCyIqpL+5Iv6XhlSyzjLCnI2sIdbCg==
+  dependencies:
+    "@types/node" "*"
 
 "@types/expect@^1.20.4":
   version "1.20.4"
@@ -3786,11 +3827,11 @@ object.assign@^4.1.2:
     object-keys "^1.1.1"
 
 oclif@^3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.4.3.tgz#8db95c7d1f0c8c82fb3037545f78e65fa7769a4a"
-  integrity sha512-Kg8ezSJvDluazG6eyN+TeoryaFn3i9utKVty2hy6I0FUy6QcPnbl8+MCha4Jwc+x5+pA46Tu0n2cnjUcWqp56w==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-3.6.0.tgz#0469bcc20e67911124d93a0109ccfbfea0219801"
+  integrity sha512-iM7M4SA8yapjTXy7uom1N3530CjaNBxRZ1jjCYgWLePeQyFLPOm9dbzOBLe0rLC7cZJ7ExPd1VcA8qW7N7Xq5Q==
   dependencies:
-    "@oclif/core" "^1.20.4"
+    "@oclif/core" "^2.0.2-beta.10"
     "@oclif/plugin-help" "^5.1.19"
     "@oclif/plugin-not-found" "^2.3.7"
     "@oclif/plugin-warn-if-update-available" "^2.0.14"
@@ -3804,6 +3845,7 @@ oclif@^3:
     lodash "^4.17.21"
     normalize-package-data "^3.0.3"
     semver "^7.3.8"
+    shelljs "^0.8.5"
     tslib "^2.3.1"
     yeoman-environment "^3.11.1"
     yeoman-generator "^5.6.1"
@@ -4463,16 +4505,7 @@ shell-quote@^1.7.3:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
   integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
-shelljs@^0.8.4:
-  version "0.8.4"
-  resolved "https://registry.npmjs.org/shelljs/-/shelljs-0.8.4.tgz"
-  integrity sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==
-  dependencies:
-    glob "^7.0.0"
-    interpret "^1.0.0"
-    rechoir "^0.6.2"
-
-shelljs@^0.8.5:
+shelljs@^0.8.4, shelljs@^0.8.5:
   version "0.8.5"
   resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.5.tgz#de055408d8361bed66c669d2f000538ced8ee20c"
   integrity sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==
@@ -5155,6 +5188,11 @@ word-wrap@^1.2.3:
   version "1.2.3"
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
+
+wordwrap@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
 workerpool@6.1.5:
   version "6.1.5"
