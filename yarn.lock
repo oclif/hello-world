@@ -459,7 +459,7 @@
     supports-color "^8.1.1"
     tslib "^2"
 
-"@oclif/core@^1.20.3", "@oclif/core@^1.20.4", "@oclif/core@^1.23.0", "@oclif/core@^1.23.1", "@oclif/core@^1.25.0":
+"@oclif/core@^1.20.3", "@oclif/core@^1.20.4", "@oclif/core@^1.23.1", "@oclif/core@^1.25.0":
   version "1.25.0"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-1.25.0.tgz#a3891f903bf211ce1f3c8a05419b686f02c5bbd6"
   integrity sha512-vS8L5Uqc5Wuq3zmKVvX5LLcyxhfH2X2q+LG1P6czzkh6k09uLeDaZfwaYPXD7ItM4Vfy+KEctfKiWePeLDnOpg==
@@ -493,7 +493,7 @@
     widest-line "^3.1.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^2.0.2-beta.10":
+"@oclif/core@^2.0.2-beta.10", "@oclif/core@^2.0.2-beta.6":
   version "2.0.2-beta.10"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-2.0.2-beta.10.tgz#5b459a91d653b8d5aa234e4324a4cc483747abd2"
   integrity sha512-FgJ5XHE6MjE7DOyQAcOZPD5Xs5cNOzP91zAQBkut8xhOkZA1NRQjv+7BczJqOTerXccohhTlu09pd7OAyDuitw==
@@ -549,13 +549,13 @@
     fast-levenshtein "^3.0.0"
     lodash "^4.17.21"
 
-"@oclif/plugin-plugins@^2.1.12":
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-2.1.12.tgz#1b2a8e08481b0691adca09714ceb44fb293cceb6"
-  integrity sha512-vvste+qfmuAZVO+LEhJbBm7kLAtWCFFyfoAFCpe061i8KRnsl8/f0l+/VLAUWiYB3c5M518knIi/UfIvGPV/Ew==
+"@oclif/plugin-plugins@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-2.2.2.tgz#6cc212cb991fce52680e6aceec05d4c960ba50db"
+  integrity sha512-5b+LmscDsQHIn32oWnXxLcozRHHpgMXEroPVCm3Q682Yu9sE9l81Txycyj1fqOIvXnhKMLO+S7h/YaLCZLadrA==
   dependencies:
     "@oclif/color" "^1.0.2"
-    "@oclif/core" "^1.23.0"
+    "@oclif/core" "^2.0.2-beta.6"
     chalk "^4.1.2"
     debug "^4.3.4"
     fs-extra "^9.0"
