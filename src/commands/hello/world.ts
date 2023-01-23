@@ -11,7 +11,7 @@ hello world! (./src/commands/hello/world.ts)
 
   static flags = {}
 
-  static args = []
+  static args = {}
 
   async run(): Promise<void> {
     this.log('hello world! (./src/commands/hello/world.ts)')
