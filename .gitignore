@@ -7,3 +7,5 @@
 /tmp
 node_modules
 oclif.manifest.json
+**/.DS_Store
+/.idea
