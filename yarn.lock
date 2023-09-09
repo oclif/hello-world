@@ -799,15 +799,14 @@
     "@oclif/core" "^2.9.3"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.4.0.tgz#da0499f9d3ee41812f2c887cc30808ad0cb10a95"
-  integrity sha512-oErF7B+75TEheNWMvVfrCtlaHhnCnx41B4pN6cDQWeW4AZc11N45aNYFU55jPN0q20nUkzlVjhb/5M4zMDqQ7w==
+"@oclif/plugin-plugins@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.5.0.tgz#48f4ec8d17bd3c76e87da581e40ef8f05b03817d"
+  integrity sha512-eE1P5jaFLLAeJvs2ilnGIHbxlhr7Z+3qgn/2uQoAGyozbSltAVkRRQ0LGPrGsqiwdgpgSpR2fPcvaskFanKfyA==
   dependencies:
     "@oclif/core" "^2.11.10"
     chalk "^4.1.2"
     debug "^4.3.4"
-    fs-extra "^9.0"
     http-call "^5.2.2"
     load-json-file "^5.3.0"
     npm "9.6.7"
@@ -2843,7 +2842,7 @@ fs-extra@^8.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
-fs-extra@^9.0, fs-extra@^9.0.1:
+fs-extra@^9.0.1:
   version "9.1.0"
   resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-9.1.0.tgz"
   integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
