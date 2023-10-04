@@ -4,32 +4,34 @@
   "version": "0.0.0",
   "author": "Salesforce",
   "bin": {
-    "oex": "./bin/run"
+    "oex": "./bin/run.js"
   },
   "bugs": "https://github.com/oclif/hello-world/issues",
   "dependencies": {
-    "@oclif/core": "^2",
+    "@oclif/core": "^3",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^3.8.3"
+    "@oclif/plugin-plugins": "^3.8.3",
+    "eslint-config-prettier": "^9.0.0"
   },
   "devDependencies": {
-    "@oclif/test": "^2.5.6",
+    "@oclif/prettier-config": "^0.2.1",
+    "@oclif/test": "^3",
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
-    "@types/node": "^16.18.55",
+    "@types/node": "^18",
     "chai": "^4",
-    "eslint": "^7.32.0",
-    "eslint-config-oclif": "^4",
-    "eslint-config-oclif-typescript": "^1.0.3",
-    "mocha": "^9",
+    "eslint": "^8.50.0",
+    "eslint-config-oclif": "^5",
+    "eslint-config-oclif-typescript": "^2.0.1",
+    "mocha": "^10",
     "oclif": "^3.17.1",
     "shx": "^0.3.3",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
-    "typescript": "^4.9.5"
+    "typescript": "^5"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=18.0.0"
   },
   "files": [
     "/bin",
@@ -61,7 +63,7 @@
   "repository": "oclif/hello-world",
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
-    "lint": "eslint . --ext .ts --config .eslintrc",
+    "lint": "eslint . --ext .ts",
     "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest && oclif readme",
