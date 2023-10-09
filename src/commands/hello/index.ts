@@ -1,6 +1,10 @@
 import {Args, Command, Flags} from '@oclif/core'
 
 export default class Hello extends Command {
+  static args = {
+    person: Args.string({description: 'Person to say hello to', required: true}),
+  }
+
   static description = 'Say hello'
 
   static examples = [
@@ -11,10 +15,6 @@ hello friend from oclif! (./src/commands/hello/index.ts)
 
   static flags = {
     from: Flags.string({char: 'f', description: 'Who is saying hello', required: true}),
-  }
-
-  static args = {
-    person: Args.string({description: 'Person to say hello to', required: true}),
   }
 
   async run(): Promise<void> {
