@@ -545,9 +545,9 @@
     wrap-ansi "^7.0.0"
 
 "@oclif/core@^3", "@oclif/core@^3.0.0-beta.19":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.0.3.tgz#dbed0b2d819cd86f3733a2311a7278a304e089e4"
-  integrity sha512-5xdT3xFXOSsR8AtE2VNswTjCxFQFLptfnkmhhgWqKbSkFBmtix0n5EN560xmeasVku/5eZdA6juEZunS5ZKIXg==
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.2.1.tgz#94de6b9abdf97b00c95f3790bd60019d184b58af"
+  integrity sha512-QY9csFjADbRa4RH7wcKSvIowaGI+Kc5oFCODYrKy9nj3x/RPGXG9KJ2848+9ZWJKUxv3KPHBX9CULHwvrwpVdg==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
@@ -556,7 +556,7 @@
     clean-stack "^3.0.1"
     cli-progress "^3.12.0"
     debug "^4.3.4"
-    ejs "^3.1.8"
+    ejs "^3.1.9"
     get-package-type "^0.1.0"
     globby "^11.1.0"
     hyperlinker "^1.0.0"
@@ -2126,10 +2126,10 @@ eastasianwidth@^0.2.0:
   resolved "https://registry.yarnpkg.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
-ejs@^3.1.8:
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.8.tgz#758d32910c78047585c7ef1f92f9ee041c1c190b"
-  integrity sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
+ejs@^3.1.8, ejs@^3.1.9:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.9.tgz#03c9e8777fe12686a9effcef22303ca3d8eeb361"
+  integrity sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==
   dependencies:
     jake "^10.8.5"
 
