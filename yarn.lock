@@ -545,9 +545,9 @@
     wrap-ansi "^7.0.0"
 
 "@oclif/core@^3", "@oclif/core@^3.0.0-beta.19":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.2.1.tgz#94de6b9abdf97b00c95f3790bd60019d184b58af"
-  integrity sha512-QY9csFjADbRa4RH7wcKSvIowaGI+Kc5oFCODYrKy9nj3x/RPGXG9KJ2848+9ZWJKUxv3KPHBX9CULHwvrwpVdg==
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.5.0.tgz#ce12e264f6eab051391489bf4df0340a133fc3fb"
+  integrity sha512-u1X8KguaIoLClbTWgnvXeVb6bu+GUCbmrY/1e1E6Xl3P8zw1cj8nm57RkvBnAHLVixnZ+4maVJrJ2vRVro/S+g==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
