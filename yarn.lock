@@ -544,10 +544,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3", "@oclif/core@^3.0.0-beta.19":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.5.0.tgz#ce12e264f6eab051391489bf4df0340a133fc3fb"
-  integrity sha512-u1X8KguaIoLClbTWgnvXeVb6bu+GUCbmrY/1e1E6Xl3P8zw1cj8nm57RkvBnAHLVixnZ+4maVJrJ2vRVro/S+g==
+"@oclif/core@^3", "@oclif/core@^3.6.0":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.9.1.tgz#056cf2e5b0962eac371a31d12963b188ca314716"
+  integrity sha512-ZVz2TY8f0cA2HHIWdIAYOjpKynEyF481cKs1J6olDViLZ4OJonuLgGWUFs9luaadBcYtRoVuM3Ox1cdSqeUWFw==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
@@ -628,11 +628,11 @@
   integrity sha512-XB8kwQj8zynXjIIWRm+6gO/r8Qft2xKtwBMSmq1JRqtA6TpwpqECqiu8LosBCyg2JBXuUy2lU23/L98KIR7FrQ==
 
 "@oclif/test@^3":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.0.2.tgz#aab9443a1eeb8d996d28020344e6abf7f82c688e"
-  integrity sha512-zTLHSQ1A/9jrzW+jrX9qc1B1pyihtxO+87oW/5lHnNnztvEnmfdcxVKe8CYobpNiSJtAQMBY5BTxgvm9eaZD5Q==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.0.3.tgz#fe32dd96171933a323468b27951104a22673e981"
+  integrity sha512-hhQa732q85z71wur0Tzf9n9Z32Yiq8Hb4suNGeweYHtNQ5DmWgGqHJ57S+zs6ri0GF+xJmzRyr5qFq8KNs3Xqg==
   dependencies:
-    "@oclif/core" "^3.0.0-beta.19"
+    "@oclif/core" "^3.6.0"
     chai "^4.3.10"
     fancy-test "^3.0.1"
 
