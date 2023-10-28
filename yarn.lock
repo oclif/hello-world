@@ -591,10 +591,10 @@
     "@oclif/core" "^2.9.3"
     fast-levenshtein "^3.0.0"
 
-"@oclif/plugin-plugins@^3.9.3":
-  version "3.9.3"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.9.3.tgz#5678e3beaa73fd7333dcb4efc44141f593c86ba7"
-  integrity sha512-hsm2mTL6uCP79WpltC+G1gkOrn2ckWXUnSi4UmF0eKbddOxJ9vakekuQpj/zlRJkXBNWaXlAskzJmnRoCGT+AQ==
+"@oclif/plugin-plugins@^3.9.4":
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-3.9.4.tgz#e4fe13882f927360c543e53c9548a5aaf856c90a"
+  integrity sha512-JtumjspRdzJgHk1S10wu68tdlqSnyYRmSgCsmsc6AEvU+Orb0DQfrAgJEO77rPKPNo5MfnVAj0WyCDTi0JT/vw==
   dependencies:
     "@oclif/core" "^2.15.0"
     chalk "^4.1.2"
