@@ -10,8 +10,7 @@
   "dependencies": {
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^3.9.4",
-    "eslint-config-prettier": "^9.0.0"
+    "@oclif/plugin-plugins": "^4"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
@@ -20,9 +19,10 @@
     "@types/mocha": "^9.0.0",
     "@types/node": "^18",
     "chai": "^4",
-    "eslint": "^8.52.0",
-    "eslint-config-oclif": "^5",
     "eslint-config-oclif-typescript": "^3",
+    "eslint-config-oclif": "^5",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.52.0",
     "mocha": "^10",
     "oclif": "^3.17.2",
     "shx": "^0.3.3",
@@ -35,7 +35,6 @@
   "files": [
     "/bin",
     "/dist",
-    "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/oclif/hello-world",
