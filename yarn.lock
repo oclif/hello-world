@@ -544,41 +544,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3", "@oclif/core@^3.6.0":
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.9.1.tgz#056cf2e5b0962eac371a31d12963b188ca314716"
-  integrity sha512-ZVz2TY8f0cA2HHIWdIAYOjpKynEyF481cKs1J6olDViLZ4OJonuLgGWUFs9luaadBcYtRoVuM3Ox1cdSqeUWFw==
-  dependencies:
-    ansi-escapes "^4.3.2"
-    ansi-styles "^4.3.0"
-    cardinal "^2.1.1"
-    chalk "^4.1.2"
-    clean-stack "^3.0.1"
-    cli-progress "^3.12.0"
-    debug "^4.3.4"
-    ejs "^3.1.9"
-    get-package-type "^0.1.0"
-    globby "^11.1.0"
-    hyperlinker "^1.0.0"
-    indent-string "^4.0.0"
-    is-wsl "^2.2.0"
-    js-yaml "^3.14.1"
-    natural-orderby "^2.0.3"
-    object-treeify "^1.1.33"
-    password-prompt "^1.1.2"
-    slice-ansi "^4.0.0"
-    string-width "^4.2.3"
-    strip-ansi "^6.0.1"
-    supports-color "^8.1.1"
-    supports-hyperlinks "^2.2.0"
-    widest-line "^3.1.0"
-    wordwrap "^1.0.0"
-    wrap-ansi "^7.0.0"
-
-"@oclif/core@^3.7.1":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.10.0.tgz#d9aac186b9300b448479fdee75f1774b4ff4626f"
-  integrity sha512-gXats+3wTQRztZS2gy8rcZgkKqLY/FexCzcAkNe8Z4E+268hagAHMFxA8tsiUcOKaywgQAL55TCHD1bgni54GA==
+"@oclif/core@^3", "@oclif/core@^3.7.1", "@oclif/core@^3.9.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.10.1.tgz#c8e6c7a557983de1c55990177c16c78d26e10083"
+  integrity sha512-zBjujYmLyEu7T6PBlaPqmsum/Cc5KMwc6XmcKzUC/PUQspENGd4z0n4eBlNlKjfO/1sLdts99xUlSoIYXoFimg==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
@@ -657,11 +626,11 @@
   integrity sha512-XB8kwQj8zynXjIIWRm+6gO/r8Qft2xKtwBMSmq1JRqtA6TpwpqECqiu8LosBCyg2JBXuUy2lU23/L98KIR7FrQ==
 
 "@oclif/test@^3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.0.3.tgz#fe32dd96171933a323468b27951104a22673e981"
-  integrity sha512-hhQa732q85z71wur0Tzf9n9Z32Yiq8Hb4suNGeweYHtNQ5DmWgGqHJ57S+zs6ri0GF+xJmzRyr5qFq8KNs3Xqg==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.1.0.tgz#23b7cacf951fa5ccfcd857efbf63b02fb95f1eef"
+  integrity sha512-bjezbUX2C9DpjNu3aLxScaL+C7aMnPPAQ/zaK3R7nsNw8kUSd6Sub2PYv2IbcxqNYH98Fw7YGZnVNw7m0F7dDA==
   dependencies:
-    "@oclif/core" "^3.6.0"
+    "@oclif/core" "^3.9.1"
     chai "^4.3.10"
     fancy-test "^3.0.1"
 
