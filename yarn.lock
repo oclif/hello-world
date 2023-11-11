@@ -544,10 +544,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3", "@oclif/core@^3.7.1", "@oclif/core@^3.9.1":
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.10.1.tgz#c8e6c7a557983de1c55990177c16c78d26e10083"
-  integrity sha512-zBjujYmLyEu7T6PBlaPqmsum/Cc5KMwc6XmcKzUC/PUQspENGd4z0n4eBlNlKjfO/1sLdts99xUlSoIYXoFimg==
+"@oclif/core@^3", "@oclif/core@^3.10.1", "@oclif/core@^3.7.1":
+  version "3.10.8"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.10.8.tgz#8a855841107576b88a2ebe2e20e6e0d7ee885713"
+  integrity sha512-DRiEiXUvijq/1dXL80/sFGdhTjejFiUzxURW7N310TEKlONujas66KhLATfF/nG3mICqTCU0f9B+VNfLtZoGqw==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
@@ -626,11 +626,11 @@
   integrity sha512-XB8kwQj8zynXjIIWRm+6gO/r8Qft2xKtwBMSmq1JRqtA6TpwpqECqiu8LosBCyg2JBXuUy2lU23/L98KIR7FrQ==
 
 "@oclif/test@^3":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.1.0.tgz#23b7cacf951fa5ccfcd857efbf63b02fb95f1eef"
-  integrity sha512-bjezbUX2C9DpjNu3aLxScaL+C7aMnPPAQ/zaK3R7nsNw8kUSd6Sub2PYv2IbcxqNYH98Fw7YGZnVNw7m0F7dDA==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.1.1.tgz#1263f716191977784278643f6e3c57cbbadb8fe2"
+  integrity sha512-88y8E6z0ZVyBdk4RGgZtr2PFYXmfXbnZEqVtKw4K7xf5xIakqN/l8BAoDkBbBU25ELKGoQb4maHfoa9uyfTOtw==
   dependencies:
-    "@oclif/core" "^3.9.1"
+    "@oclif/core" "^3.10.1"
     chai "^4.3.10"
     fancy-test "^3.0.1"
 
