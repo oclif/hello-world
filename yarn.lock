@@ -516,7 +516,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3", "@oclif/core@^3.10.2", "@oclif/core@^3.11.0", "@oclif/core@^3.12.0":
+"@oclif/core@^3", "@oclif/core@^3.10.2", "@oclif/core@^3.12.0", "@oclif/core@^3.14.1":
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.15.0.tgz#28405012137fa92efcc5a2c4d61336dd64c697cb"
   integrity sha512-A1EVh4gv7mqAJ9OGVxLugaLcHvQnGwvOnPToP8OT9AldJ0LwVExOwhhlnOstYca33MIpGH00twYxWMS5nxMuDQ==
@@ -557,11 +557,11 @@
     "@oclif/core" "^2.15.0"
 
 "@oclif/plugin-help@^6":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.7.tgz#0bad86335dbf687d0ba03c98f5e541109f9ac371"
-  integrity sha512-+apYpLuNk6VGNuZZbFdwUlTcFb+FkQnySWR5S5pZYC+yHcT39zgOK06NAheHHhd5KSzroFwQu7RTdHnK6Tzakg==
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-6.0.8.tgz#9ad196f9ddbeae1f5353448d16e0cb68463bac31"
+  integrity sha512-q7OWy0JSrsZVynPkWQxmd3dEFA2czym9FdqS06YteRldIH/Csvovst+35KneM4iD8ewqPbY8KAMYZMkMavao0g==
   dependencies:
-    "@oclif/core" "^3.11.0"
+    "@oclif/core" "^3.14.1"
 
 "@oclif/plugin-not-found@^2.3.32":
   version "2.3.32"
