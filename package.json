@@ -16,7 +16,7 @@
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^3",
     "@types/chai": "^4",
-    "@types/mocha": "^9.0.0",
+    "@types/mocha": "^10.0.0",
     "@types/node": "^18",
     "chai": "^4",
     "eslint": "^8.57.0",
